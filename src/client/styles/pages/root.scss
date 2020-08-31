@@ -1,0 +1,49 @@
+$logoColor:#00886C !global;
+
+.root-container{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    width:100%;
+    height:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.header-logo{
+    color:$logoColor;
+    font-weight:700;
+    font-size:200%;
+    margin:0;
+    margin-left:20px;
+}
+.header-logo-line{
+    background-color:$logoColor;
+    width:12%;
+    height:3px;
+    border-radius:10px;
+    border:none;
+    margin:0;
+    margin-left:20px;
+}
+
+.main-slyles{
+    width: 100%;
+    height: 80%;
+}
+
+.footer-styles{
+    width:100%;
+    height: 20%;
+    position: fixed;
+    bottom: 0;
+}
+.bottom-navigation-styles{
+    background-color: #1B2B39;
+    width: 100%;
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+    position: fixed;
+    bottom: 0;
+}

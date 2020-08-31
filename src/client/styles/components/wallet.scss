@@ -1,0 +1,15 @@
+.wallet-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color:#DCEEE9;
+    border-radius: 15px;
+}
+
+.amountMoney{
+    font-size: xx-large;
+    color:#1b2b39;
+}

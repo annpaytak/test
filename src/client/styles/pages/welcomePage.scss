@@ -1,0 +1,47 @@
+$firstColor:#00886C !global;
+$secondColor:#1B2B39 !global;
+
+.welcomePage-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.welcomeText{
+    color: $secondColor;
+    font-weight:700;
+    font-size: 300%;
+    text-align: center;
+    margin: 0;
+}
+
+.tagline-container{
+    width:32%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.welcomeLogo{
+    color:$firstColor;
+    font-weight: 700;
+    font-size: 200%;
+    margin:0;
+}
+.tagline{
+    color:#2D4954;
+    font-weight: 500;
+    font-size:200%;
+    text-align:center;
+    margin:0;
+    min-width:273px;
+}
+.button-container{
+    width:22%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}

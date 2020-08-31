@@ -1,0 +1,60 @@
+.signin-wrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin-square{
+    width: 30%;
+    height: 70%;
+    background-color:#DCEEE9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-form{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.signin-headerText{
+    text-align: center;
+    color:#2D4954;
+}
+.signin-welcomeText{
+    text-align: center;
+    color:#00886C;
+}
+.signin-welcomeWrapper{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and ( max-width:900px ) {
+    .signin-form{
+        width: 70%;
+    }
+    .signin-square{
+        width: 50%;
+    }
+}
+@media screen and ( max-width:700px ) {
+    .signin-square{
+        width: 70%;
+    }
+}
+@media screen and ( max-width:400px ){
+    .signin-square{
+        width: 80%;
+    }
+}

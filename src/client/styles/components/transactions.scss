@@ -1,0 +1,39 @@
+.transactions-wrapper{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.transactionModule{
+    border-radius: 50px;
+    
+}
+.transactionMode-summaryWrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.transactionMode-price{
+    color: rgb(224, 24, 24);
+    font-size: x-large;;
+}
+.transactionMode-name{
+   color:#2d4954;
+   font-size: larger;
+}
+
+.transactionMode-detailsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.detailsWrapper-date{
+    display: flex;
+    align-items: center;
+    color:#00886c;
+}
+.detailsWrapper-category{
+    color: #5b1755;
+}
